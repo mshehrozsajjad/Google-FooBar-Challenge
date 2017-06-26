@@ -1,4 +1,3 @@
-"""
 I Love Lance & Janice
 =====================
 
@@ -29,17 +28,4 @@ Output:
     (string) "Yeah! I can't believe Lance lost his job at the colony!!"
 
 Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
-
-"""
-
-def answer(s):
-	 result = ""
-	 for word in s:
-	 	 if not word.islower():
-	 	 	result = result +word
-	 	 else:
-    		  new_word = 122- ord(word)+ (97)
-    		  result = result + chr(new_word)
-	 return result
-
 
